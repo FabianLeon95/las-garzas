@@ -27,9 +27,19 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "src/assets/vendor/bootstrap-4.1.3/css/bootstrap-reboot.min.css",
+              "src/assets/vendor/bootstrap-4.1.3/css/bootstrap-grid.min.css",
+              "src/assets/vendor/unitegallery-master/dist/css/unite-gallery.css",
+              "src/assets/vendor/unitegallery-master/dist/themes/default/ug-theme-default.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/vendor/unitegallery-master/dist/js/jquery-11.0.min.js",
+              "src/assets/vendor/unitegallery-master/dist/js/unitegallery.min.js",
+              "src/assets/vendor/unitegallery-master/dist/themes/default/ug-theme-default.js",
+              "src/assets/vendor/unitegallery-master/dist/themes/tiles/ug-theme-tiles.js",
+              "src/assets/vendor/unitegallery-master/dist/js/init.js"
+            ]
           },
           "configurations": {
             "production": {

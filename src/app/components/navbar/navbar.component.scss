@@ -1,0 +1,66 @@
+@import 'src/sass/variables';
+
+.navbar{
+    background-color: $opacity-white;
+    font-weight: 700;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding-bottom: 1.5em;
+    z-index: 1;
+}
+.navbar-brand{
+    padding-top: 1.25rem;
+}
+
+.navbar-nav{
+    padding-top: 5em;
+    list-style: none;
+}
+
+.nav-item{
+    float: left;
+    margin-right: 3em;
+}
+
+.nav-item:last-child{
+    margin-right: 0;
+}
+
+.nav-link{
+    color: $blue;
+    display: block;
+    font-size: 1.25em;
+    text-decoration: none;
+    padding: 0.5em;
+}
+
+.nav-link:hover{
+    color: $green;
+}
+
+.active{
+    color: $red;
+}
+
+.nav-social{
+    padding: 0 3.5em;
+    position: absolute;
+    background-color: $green;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    border-bottom-left-radius: 5em;
+    border-bottom-right-radius: 5em;
+}
+
+.nav-social i{
+    color: #ffffff;
+    padding: 10px;
+    margin-bottom: 0em;
+    font-size: 2em;
+}
+
+.relative{
+    position: relative;
+}

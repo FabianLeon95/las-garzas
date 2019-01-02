@@ -1,3 +1,95 @@
-<p>
-  home works!
-</p>
+<div class="background-1">
+
+</div>
+
+<div class="container p-3">
+  <h2>¡TU CLUB DE PLAYA!</h2>
+  <p class="text-justify">
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit cumque cum saepe tenetur sint architecto corporis
+    dignissimos minus magni, sapiente deserunt iusto perferendis harum magnam quis porro esse dolorem itaque.
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi impedit voluptatibus nihil et dicta eveniet, totam
+    sunt adipisci. Vel consectetur qui cupiditate inventore incidunt quae? Delectus labore a ad earum.
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, ipsa at necessitatibus veritatis minima laboriosam,
+    autem ea nihil asperiores temporibus officiis modi laudantium, vel dicta ipsam odio velit omnis ab.
+    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid id eveniet deserunt neque quo inventore autem
+    doloremque eos voluptate sapiente! Illo minima consequatur ullam nemo neque aliquam sapiente sunt at.
+  </p>
+</div>
+
+<div class="b-gray">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 background-2">
+      </div>
+      <div class="col-md-6 pt-3">
+        <div class="h2">¡DISFRUTÁ DEL CLIMA!</div>
+        <p class="text-justify">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt hic animi voluptates, officiis, nulla
+          recusandae at repudiandae sunt placeat a repellendus laboriosam ipsa, consequuntur doloribus laborum illo?
+          Fugit, maiores nisi!
+        </p>
+        <div class="weather">
+          <img [src]="icon" alt="weather-icon">
+          <span class="temperature">{{weather.main.temp | number:'2.1-1'}}°</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container section-title">
+  <hr>
+  <h2>GALERÍA</h2>
+</div>
+
+<div class="container p-3">
+  <app-gallery></app-gallery>
+</div>
+
+<div class="container section-title">
+  <hr>
+  <h2>SERVICIOS</h2>
+</div>
+
+<div class="container p-3 d-flex flex-wrap justify-content-center">
+  <div class="service-item">
+    <img src="assets/images/piscinas.png" alt="Piscinas">
+    <h4>PISCINAS</h4>
+  </div>
+  <div class="service-item">
+    <img src="assets/images/duchas.png" alt="Duchas">
+    <h4>VESTIDORES, BAÑOS Y DUCHAS</h4>
+  </div>
+  <div class="service-item">
+    <img src="assets/images/canchas.png" alt="Canchas">
+    <h4>CANCHAS</h4>
+  </div>
+  <div class="service-item">
+    <img src="assets/images/zonas-verdes.png" alt="Zonas Verdes">
+    <h4>ZONAS VERDES</h4>
+  </div>
+  <div class="service-item">
+    <img src="assets/images/ranchitos.png" alt="Ranchitos">
+    <h4>RANCHITOS</h4>
+  </div>
+  <div class="service-item">
+    <img src="assets/images/casa-club.png" alt="Casa Club">
+    <h4>CASA CLUB</h4>
+  </div>
+  <div class="service-item">
+    <img src="assets/images/playa.png" alt="Lote en la Playa">
+    <h4>LOTE EN LA PLAYA</h4>
+  </div>
+  <div class="service-item">
+    <img src="assets/images/seguridad.png" alt="Seguridad">
+    <h4>SEGURIDAD</h4>
+  </div>
+</div>
+
+<div class="container section-title">
+  <hr>
+  <h2>UBICACIÓN</h2>
+</div>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3930.960125391871!2d-84.68142048416168!3d9.853712478237028!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa1cb4e1d496d25%3A0xe71bcea30c5bbd37!2sClub+de+playa+Las+Garzas!5e0!3m2!1ses!2scr!4v1544649376178"
+  class="g-map" frameborder="0" style="border:0" allowfullscreen></iframe>
+<app-footer></app-footer>

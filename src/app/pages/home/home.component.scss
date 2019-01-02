@@ -1,0 +1,56 @@
+.background-1{
+    background-image: url('/assets/images/background-1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    min-height: 60vh;
+    height: 600px;
+}
+
+.background-2{
+    background-image: url('/assets/images/background-2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.weather{
+    text-align: center;
+    img{
+        padding-bottom: 2em;
+    }
+}
+
+.temperature{
+    display: inline-block;
+    font-weight: 700;
+    font-size: 4em;
+    padding-left: 0.25em;
+}
+
+.service-item{
+    text-align: center;
+    margin: 0 3em;
+    margin-bottom: 2em;
+}
+
+.section-title{
+    text-align: center;
+    max-height: 1em;
+    margin-top: 1.5em;
+
+    hr{
+        border: 0;
+        color: black;
+        background-color: black;
+        height: 1.5px;
+    }
+
+    h2{
+        display: inline-block;
+        padding: .5em;
+        background-color: white;
+        transform: translateY(-1.6em);
+    }
+}
