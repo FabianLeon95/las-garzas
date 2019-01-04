@@ -8,6 +8,10 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { HomeComponent } from './pages/home/home.component';
 import { GalleryComponent } from './components/gallery/gallery.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { ContactComponent } from './components/contact/contact.component';
+import { AboutUsComponent } from './pages/about-us/about-us.component';
+import { ServicesComponent } from './pages/services/services.component';
+import { NotFoundComponent } from './pages/not-found/not-found.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +19,11 @@ import { FooterComponent } from './components/footer/footer.component';
     NavbarComponent,
     HomeComponent,
     GalleryComponent,
-    FooterComponent
+    FooterComponent,
+    ContactComponent,
+    AboutUsComponent,
+    ServicesComponent,
+    NotFoundComponent
   ],
   imports: [
     BrowserModule,

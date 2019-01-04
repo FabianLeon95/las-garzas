@@ -15,6 +15,13 @@
     background-repeat: no-repeat;
 }
 
+.background-3{
+    background-image: url('/assets/images/background-3.jpg');
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .weather{
     text-align: center;
     img{
@@ -44,7 +51,7 @@
         border: 0;
         color: black;
         background-color: black;
-        height: 1.5px;
+        height: 1px;
     }
 
     h2{

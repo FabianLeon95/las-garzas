@@ -30,7 +30,7 @@
         </p>
         <div class="weather">
           <img [src]="icon" alt="weather-icon">
-          <span class="temperature">{{weather.main.temp | number:'2.1-1'}}°</span>
+          <span class="temperature">{{temp | number:'2.1-1'}}°</span>
         </div>
       </div>
     </div>
@@ -90,6 +90,16 @@
   <hr>
   <h2>UBICACIÓN</h2>
 </div>
+
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3930.960125391871!2d-84.68142048416168!3d9.853712478237028!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa1cb4e1d496d25%3A0xe71bcea30c5bbd37!2sClub+de+playa+Las+Garzas!5e0!3m2!1ses!2scr!4v1544649376178"
-  class="g-map" frameborder="0" style="border:0" allowfullscreen></iframe>
-<app-footer></app-footer>
+  class="g-map mb-2" frameborder="0" allowfullscreen></iframe>
+
+<div class="container section-title">
+  <hr>
+  <h2>CONTÁCTENOS</h2>
+</div>
+
+<div class="background-3 mt-2">
+  <app-contact></app-contact>
+  <app-footer></app-footer>
+</div>
